@@ -22,9 +22,9 @@
 	</organization>
 
 	<scm>
-		<connection>scm:git:git@github.com:salta-kozbagarova/openmrs-module-registrationcore.git</connection>
-		<developerConnection>scm:git:git@github.com:salta-kozbagarova/openmrs-module-registrationcore.git</developerConnection>
-		<url>https://github.com/salta-kozbagarova/openmrs-module-registrationcore.git</url>
+		<connection>scm:git:git@github.com:openmrs/openmrs-module-registrationcore.git</connection>
+		<developerConnection>scm:git:git@github.com:openmrs/openmrs-module-registrationcore.git</developerConnection>
+		<url>https://github.com/openmrs/openmrs-module-registrationcore.git</url>
 	  <tag>HEAD</tag>
   </scm>
 
@@ -39,7 +39,6 @@
 		<eventVersion>2.3</eventVersion>
 		<namephoneticsVersion>1.4</namephoneticsVersion>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<github.maven-plugin>0.9</github.maven-plugin>
 	</properties>
 
 	<dependencyManagement>
@@ -192,7 +191,7 @@
             </plugins>
 		</pluginManagement>
 	</build>
-	
+
 	<repositories>
 		<repository>
 			<id>openmrs-repo</id>
@@ -211,7 +210,7 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
-
+    
     <distributionManagement>
         <repository>
             <id>maven-repository</id>
