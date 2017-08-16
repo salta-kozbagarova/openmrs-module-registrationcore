@@ -22,9 +22,9 @@
 	</organization>
 
 	<scm>
-		<connection>scm:git:git@github.com:openmrs/openmrs-module-registrationcore.git</connection>
-		<developerConnection>scm:git:git@github.com:openmrs/openmrs-module-registrationcore.git</developerConnection>
-		<url>https://github.com/openmrs/openmrs-module-registrationcore.git</url>
+		<connection>scm:git:git@github.com:salta-kozbagarova/openmrs-module-registrationcore.git</connection>
+		<developerConnection>scm:git:git@github.com:salta-kozbagarova/openmrs-module-registrationcore.git</developerConnection>
+		<url>https://github.com/salta-kozbagarova/openmrs-module-registrationcore.git</url>
 	  <tag>HEAD</tag>
   </scm>
 
@@ -243,15 +243,10 @@
 
     <distributionManagement>
         <repository>
-            <id>openmrs-repo-modules</id>
-            <name>OpenMRS Modules</name>
-            <url>http://mavenrepo.openmrs.org/nexus/content/repositories/modules</url>
+            <id>internal.repo</id>
+            <name>Temporary Staging Repository</name>
+            <url>file://${project.build.directory}/mvn-repo</url>
         </repository>
-        <snapshotRepository>
-            <id>openmrs-repo-snapshots</id>
-            <name>OpenMRS Snapshots</name>
-            <url>http://mavenrepo.openmrs.org/nexus/content/repositories/snapshots</url>
-        </snapshotRepository>
     </distributionManagement>
 
 </project>
