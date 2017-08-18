@@ -25,6 +25,7 @@ public class BasicPatientIINSearch implements PatientIINSearch {
 		Criteria criteria = sessionFactory.getCurrentSession().createCriteria(Patient.class);
 		criteria.createAlias("attributes", "attributes");
 		criteria.add(Restrictions.eq("attributes.attributeType", personAttributeType));
+		criteria.add(Restrictions.eq("attributes.value", iin));
 		@SuppressWarnings("unchecked")
 		List<Patient> patients = criteria.list();
 		if(patients != null && patients.size()>0){

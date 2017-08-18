@@ -6,25 +6,20 @@
 	<artifactId>registrationcore</artifactId>
 	<version>1.7.2</version>
 	<packaging>pom</packaging>
-	<name>Registration Core Module</name>
-	<description>Provides core utilities and services for patient registration.</description>
+	<name>Extended Registration Core Module</name>
+	<description>Provides core utilities, validations and services for patient registration.</description>
 	<url>https://wiki.openmrs.org/display/docs/Registration+Core+Module+Module</url>
 
 	<developers>
 		<developer>
-			<name>OpenMRS Developers</name>
+			<name>Saltanat Alikhanova</name>
 		</developer>
 	</developers>
 
-	<organization>
-		<name>OpenMRS</name>
-		<url>http://openmrs.org</url>
-	</organization>
-
 	<scm>
-		<connection>scm:git:git@github.com:openmrs/openmrs-module-registrationcore.git</connection>
-		<developerConnection>scm:git:git@github.com:openmrs/openmrs-module-registrationcore.git</developerConnection>
-		<url>https://github.com/openmrs/openmrs-module-registrationcore.git</url>
+		<connection>scm:git:git@github.com:salta-kozbagarova/openmrs-module-registrationcore.git</connection>
+		<developerConnection>scm:git:git@github.com:salta-kozbagarova/openmrs-module-registrationcore.git</developerConnection>
+		<url>https://github.com/salta-kozbagarova/openmrs-module-registrationcore.git</url>
 	  <tag>HEAD</tag>
   </scm>
 
