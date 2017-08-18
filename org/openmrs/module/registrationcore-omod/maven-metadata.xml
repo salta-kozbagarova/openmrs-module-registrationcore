@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>org.openmrs.module</groupId>
-  <artifactId>registrationcore-api</artifactId>
+  <artifactId>registrationcore-omod</artifactId>
   <versioning>
     <release>1.7.2</release>
     <versions>
       <version>1.7.2</version>
     </versions>
-    <lastUpdated>20170818060445</lastUpdated>
+    <lastUpdated>20170818060505</lastUpdated>
   </versioning>
 </metadata>
